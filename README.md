@@ -1,5 +1,5 @@
 Grabber Project
-The program aggregates all vaccines from a website and put to a database
+The program aggregates all vacancies from a website and put to a database
 
 The system starts according to the schedule - once a minute.
 
