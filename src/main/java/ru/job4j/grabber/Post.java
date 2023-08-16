@@ -67,12 +67,12 @@ public class Post {
 
     @Override
     public String toString() {
-        return "Post{"
-                + "id=" + id
-                + ", title='" + title + '\''
-                + ", link='" + link + '\''
-                + ", description='" + description + '\''
-                + ", created=" + created + '}';
+        return
+                "___id____________" + id + System.lineSeparator()
+                        + "___title_________" + title + System.lineSeparator()
+                        + "___description___" + description + System.lineSeparator()
+                        + "___link__________" + link + System.lineSeparator()
+                        + "___created_______" + created + System.lineSeparator();
     }
 
     @Override
